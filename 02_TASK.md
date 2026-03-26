@@ -302,7 +302,7 @@ Für diesen Graphen ergibt sich:
 |B| 21| 4|18| 5|
 |C| 24| 2| 15| 2|
 |D| 14| 2|10| 12|
-|E| 17 |4 | 12 |19|
+|E| 17 |4 | 12 |9|
 |F| 10| 15| 8| 16|
 |G| 12| 10| 6|14|
 |H| 15|11 |10|11|
@@ -361,7 +361,7 @@ Ablauf für den MCP-Algorithmus für den in [Abbildung %s](#DAG) dargestellten T
 * **Nachteil:** Höherer Berechnungsaufwand, da in jedem Schritt alle (Task, Prozessor)-Paare neu evaluiert werden.
 
 ```{figure} ./etf.png
-:label: etfgantt
+:label: hlfetgantt
 :alt: Gant-Chart für ETF Algorithmus
 :align: center
 
