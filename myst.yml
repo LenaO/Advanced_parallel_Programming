@@ -14,7 +14,8 @@ project:
     - file: 02_TASK.md
     - file: 03_OpenMP.md
     - file: 04_MPI.md 
-site:
+    - file: 05_CUDA_INTRO.md
+  site:
   template: book-theme
   # options:
   #   favicon: favicon.ico
