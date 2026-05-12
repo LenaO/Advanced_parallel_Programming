@@ -361,7 +361,7 @@ Ablauf für den MCP-Algorithmus für den in [Abbildung %s](#DAG) dargestellten T
 * **Nachteil:** Höherer Berechnungsaufwand, da in jedem Schritt alle (Task, Prozessor)-Paare neu evaluiert werden.
 
 ```{figure} ./etf.png
-:label: hlfetgantt
+:label: etfgantt
 :alt: Gant-Chart für ETF Algorithmus
 :align: center
 

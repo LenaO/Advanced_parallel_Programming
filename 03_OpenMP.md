@@ -388,7 +388,7 @@ void process_in_parallel() {
 * T2 und T3 können parallel laufen (beide nur `in`).
 * **Einschränkung:** Die Abhängigkeit über `x` koppelt die Iterationen – Iteration `i+1` muss auf Iteration `i` warten.
 ```{figure} ./openMP_TASK1.png
-:label: Taskpool
+:label: Abhaengig1
 :alt: Abhängigkeit Beispiel 1
 :align: center
 
@@ -411,7 +411,7 @@ Task-Graph für das Beispiel 1
 ```
 * Da `i` privat ist, sind die Iterationen unabhängig → mehr Parallelität möglich.
 ```{figure} ./openMP_TASK2.png
-:label: Taskpool
+:label: Abheangig2
 :alt: Abhängigkeit Beispiel 2
 :align: center
 
