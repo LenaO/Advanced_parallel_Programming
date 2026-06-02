@@ -8,5 +8,6 @@ project:
     - file: 04_MPI.md
     - file: 05_CUDA_INTRO.md
     - file: 06_CUDA_ADVANCED.md
+    - file: 07_MULTIGPU.md
 site:
   template: book-theme
